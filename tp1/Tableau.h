@@ -26,6 +26,8 @@ public:
     int getTailleMax();
     int getNbElem();
     Entree getElem(int rang);
+
+    bool operator==(Tableau& a);
 };
 
 

@@ -19,6 +19,8 @@ public:
     friend ostream& operator<<(ostream& out, Entree& e);
     string getNom();
     string getTel();
+
+    bool operator==(Entree e);
 };
 
 

@@ -60,7 +60,6 @@ PtrAgenda &PtrAgenda::operator+(PtrAgenda &a) {
 
 PtrAgenda &PtrAgenda::operator+=(PtrAgenda &a) {
     *this = this->concat(a);
-    cout << "e" << endl;
     return *this;
 }
 
@@ -85,7 +84,10 @@ PtrAgenda &PtrAgenda::operator-=(string nom) {
 }
 
 bool PtrAgenda::operator==(PtrAgenda &a) {
-    return false;
+    if (this == &a){
+        return true;
+    }
+    return (*this->tab==*a.tab);
 }
 
 bool PtrAgenda::operator/(string nom) {

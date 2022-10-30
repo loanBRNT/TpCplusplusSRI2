@@ -17,20 +17,6 @@ int main() {
     PtrAgenda planning(31);
     PtrAgenda planning2(31);
 
-    /*
-    planning.ajouter("BERNAT","0651229452");
-    planning.ajouter("AMBLARD","06");
-    planning2.ajouter("tata","07");
-    planning2.ajouter("toto","08");
-
-    PtrAgenda planning3(planning);
-
-
-    planning.supprimer("BERNAT");
-    cout << planning << endl;
-    cout << planning3 << endl;
-
-    */
     planning += Entree("GAUDILLAT","17");
     planning += Entree("MISSIER","21");
     PtrAgenda planning3 = planning;
@@ -42,7 +28,20 @@ int main() {
     planning = planning3 + planning2;
     planning+=planning2;
 
-    planning()"G";
+    PtrAgenda planning4(20);
+    planning4 += Entree("GAUDILLAT","71");
+    planning4 += Entree("SOUBIRANT","82");
+
+    if (planning2==planning4){
+        cout << "=" << endl;
+    } else {
+        cout << "!=" << endl;
+    }
+
+    cout << planning << endl;
+    planning('G');
+    planning-="GAUDILLAT";
+    cout << planning << endl;
 
     return 0;
 }

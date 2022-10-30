@@ -8,10 +8,7 @@ Tableau::Tableau(int t):tailleMax(t),nbElem(0) {
     this->tableau = new Entree[t];
 }
 
-Tableau::Tableau(Tableau const &c) {
-    this->tailleMax = c.tailleMax;
-    this->nbElem = c.nbElem;
-    this->tableau = new Entree[tailleMax];
+Tableau::Tableau(Tableau const &c): tailleMax(c.tailleMax), nbElem(c.nbElem), tableau(new Entree[tailleMax]) {
     for (int i = 0 ; i < this->nbElem ; i++){
         this->tableau[i] = c.tableau[i];
     }
@@ -73,6 +70,23 @@ int Tableau::getNbElem() {
 
 Entree Tableau::getElem(int rang) {
     return this->tableau[rang];
+}
+
+bool Tableau::operator==(Tableau& a) {
+    if (this == &a){
+        return true;
+    }
+    if (this->nbElem != a.nbElem){
+        return false;
+    }
+    bool pareil = true;
+
+    for (int i =0 ; i < this->nbElem ; i++){
+        if (not (this->tableau[i]==a.tableau[i])){
+            pareil = false;
+        }
+    }
+    return pareil;
 }
 
 
