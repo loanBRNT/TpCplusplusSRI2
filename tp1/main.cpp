@@ -37,6 +37,11 @@ int main() {
     } else {
         cout << "!=" << endl;
     }
+    if (planning/"GAUDILLAT"){
+        cout << "Il y a bien GAUDILLAT" << endl;
+    } else {
+        cout << "Pas de GAUDILLAT" << endl;
+    }
 
     cout << planning << endl;
     planning('G');
