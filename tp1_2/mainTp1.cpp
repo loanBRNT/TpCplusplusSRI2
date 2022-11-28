@@ -1,5 +1,5 @@
 //
-// Created by loant on 27/10/2022.
+// Created by loant on 23/11/2022.
 //
 #include <iostream>
 
@@ -11,9 +11,7 @@
  *
  * Pour le TP2, j'ai implémenté les opérateurs dans PtrAgenda.
  * */
-
-int main() {
-
+int mainTp1(){
     PtrAgenda planning(31);
     PtrAgenda planning2(31);
 
@@ -47,6 +45,5 @@ int main() {
     planning('G');
     planning-="GAUDILLAT";
     cout << planning << endl;
-
     return 0;
 }
