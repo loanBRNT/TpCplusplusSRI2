@@ -5,6 +5,9 @@
 #include "../tp3_4/Document.h"
 #include "../tp3_4/Article.h"
 #include "../tp3_4/Livre.h"
+#include "../tp3_4/DocumentAbstract.h"
+#include "../tp3_4/ArticleAbstract.h"
+#include "../tp3_4/LivreAbstract.h"
 #include "../tp3_4/Biblio.h"
 
 int main(){
@@ -38,5 +41,9 @@ int main(){
     b.afficher();
 
     cout << *(b.rechercher("Battre un gromp")) << endl;
+
+    LivreAbstract livre(titre2,auteur2,&resume2,"PASSAT","2022");
+    cout << "\nPrix d'un livre :" << livre.cout() << endl;
+
     return 0;
 }

@@ -121,6 +121,24 @@ build CMakeFiles/untitled.dir/tp3_4/docAbstract.cpp.obj: CXX_COMPILER__untitled_
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\tp3_4
 
+build CMakeFiles/untitled.dir/tp3_4/DocumentAbstract.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/loant/CLionProjects/TpCplusplusSRI2/tp3_4/DocumentAbstract.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\tp3_4\DocumentAbstract.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\tp3_4
+
+build CMakeFiles/untitled.dir/tp3_4/LivreAbstract.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/loant/CLionProjects/TpCplusplusSRI2/tp3_4/LivreAbstract.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\tp3_4\LivreAbstract.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\tp3_4
+
+build CMakeFiles/untitled.dir/tp3_4/ArticleAbstract.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/loant/CLionProjects/TpCplusplusSRI2/tp3_4/ArticleAbstract.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\tp3_4\ArticleAbstract.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\tp3_4
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -129,7 +147,7 @@ build CMakeFiles/untitled.dir/tp3_4/docAbstract.cpp.obj: CXX_COMPILER__untitled_
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/tp1_2/Entree.cpp.obj CMakeFiles/untitled.dir/tp1_2/Tableau.cpp.obj CMakeFiles/untitled.dir/tp1_2/OldAgenda.cpp.obj CMakeFiles/untitled.dir/tp1_2/PtrAgenda.cpp.obj CMakeFiles/untitled.dir/main/main.cpp.obj CMakeFiles/untitled.dir/tp3_4/Document.cpp.obj CMakeFiles/untitled.dir/tp3_4/mainTp3.cpp.obj CMakeFiles/untitled.dir/tp1_2/mainTp1.cpp.obj CMakeFiles/untitled.dir/tp3_4/Livre.cpp.obj CMakeFiles/untitled.dir/tp3_4/Article.cpp.obj CMakeFiles/untitled.dir/tp3_4/Biblio.cpp.obj CMakeFiles/untitled.dir/tp3_4/docAbstract.cpp.obj
+build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/tp1_2/Entree.cpp.obj CMakeFiles/untitled.dir/tp1_2/Tableau.cpp.obj CMakeFiles/untitled.dir/tp1_2/OldAgenda.cpp.obj CMakeFiles/untitled.dir/tp1_2/PtrAgenda.cpp.obj CMakeFiles/untitled.dir/main/main.cpp.obj CMakeFiles/untitled.dir/tp3_4/Document.cpp.obj CMakeFiles/untitled.dir/tp3_4/mainTp3.cpp.obj CMakeFiles/untitled.dir/tp1_2/mainTp1.cpp.obj CMakeFiles/untitled.dir/tp3_4/Livre.cpp.obj CMakeFiles/untitled.dir/tp3_4/Article.cpp.obj CMakeFiles/untitled.dir/tp3_4/Biblio.cpp.obj CMakeFiles/untitled.dir/tp3_4/docAbstract.cpp.obj CMakeFiles/untitled.dir/tp3_4/DocumentAbstract.cpp.obj CMakeFiles/untitled.dir/tp3_4/LivreAbstract.cpp.obj CMakeFiles/untitled.dir/tp3_4/ArticleAbstract.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

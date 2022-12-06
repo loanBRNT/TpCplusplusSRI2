@@ -27,7 +27,3 @@ Livre Livre::operator=(Livre &livre) {
     }
     return *this;
 }
-
-int Livre::cout() {
-    return 0;
-}

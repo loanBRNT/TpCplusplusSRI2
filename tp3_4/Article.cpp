@@ -30,7 +30,3 @@ Article Article::operator=(Article &ar) {
     }
     return *this;
 }
-
-int Article::cout() {
-    return 0;
-}

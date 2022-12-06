@@ -18,7 +18,6 @@ public:
     void affichage();
     Article* cloner();
     Article operator=(Article& ar);
-    int cout() override;
 };
 
 

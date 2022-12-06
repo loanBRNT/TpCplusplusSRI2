@@ -21,11 +21,11 @@ public:
     Document(Document& d);
     virtual Document* cloner();
     friend ostream& operator<<(ostream& out, Document& d);
+
     virtual void affichage();
     ~Document();
     Document operator=(Document& doc);
     string getTitre();
-    virtual int cout()=0;
 };
 
 

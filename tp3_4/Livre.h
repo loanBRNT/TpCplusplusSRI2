@@ -17,7 +17,6 @@ public:
     void affichage();
     Livre* cloner();
     Livre operator=(Livre& livre);
-    int cout() override;
 };
 
 
